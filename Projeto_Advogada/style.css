@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+   overflow-x: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
+
+
+/* --- Efeito Parllax --- */
+.caixa1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.caixa1{
+    background-image: url(Imagem/law-firm-blind-lady-justice-picjumbo-com\ \(2\).png);
+    width: 100%;
+
+}
+
+
+/* --- Cabeçalho--- */
+
+nav.navbar-transparente{
+    background: rgba(255, 255, 255, 0.9);
+   /* background: rgba(252, 239, 196, 0.7);*/
+  /* background: rgba(245,245,220, 0.9);*/
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(124, 19, 19);
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ffffff;
+    background: rgb(124, 19, 19);
+
+}
+
+.navbar-light .navbar-toggler {
+    background:  rgb(124, 19, 19);
+    border: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-light .navbar-toggler:hover {
+    color: rgb(124, 19, 19);
+    background: rgb(124, 19, 19, 0.7);
+    border: rgb(124, 19, 19);
+}
+
+.logo{
+    width: 62%;
+}
+
+
+
+/*---- Carousel ----*/
+
+
+.carousel1{
+    margin-top: 220px;
+    text-align: center;
+    
+}
+
+.carousel1 img{
+    border-radius: 10px;
+    width: 70%;
+ }
+
+.carousel-control-next, .carousel-control-prev{
+    width: 20%;
+}
+
+.fa, .fas {
+    font-weight: 900;
+    color: rgb(124, 19, 19);
+}
+
+.fundo{
+    background:rgba(0,0,0,0.5);
+    width:70%;
+}
+
+
+
+/*---Noticias ---*/
+
+.noticia{
+    margin-top: 100px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.932);
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.noticia h4{
+    font-weight: bold;
+    color: rgb(124, 19, 19);
+
+}
+
+.noticia .item{
+    border: 2px solid rgba(221, 208, 166, 0.822);
+    border-radius: 10px;
+}
+
+
+.noticia p{
+    font-size: 1em;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+
+.noticia .btn-light {
+    color: white;
+    background-color: rgb(124, 19, 19);
+    border-color: rgb(124, 19, 19);
+}
+
+.noticia a:hover{
+    color: rgb(124, 19, 19);
+    background-color: white;
+    border-color: rgb(124, 19, 19);
+}
+
+
+
+
+/*---Sobre ---*/
+
+.sobre{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.932);
+    padding: 15px;
+}
+
+.sobre img{
+    border-radius: 15%;
+    border: 3px solid rgba(221, 208, 166, 0.822);   
+}
+
+.dados h5{
+    padding: 15px 15px 0 10px;
+    font-size: 1.7em;
+    color: rgb(124, 19, 19);
+    font-weight: bold;    
+}
+
+.dados p{
+    padding: 15px 15px 0 10px;
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+
+
+/*---Area de atuação---*/
+.area-atuacao{
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 20px 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.932);
+}
+
+.area-atuacao h5{
+    font-size: 1.1em;
+    color: rgb(124, 19, 19);
+    font-weight: bold;
+    align-self: center;
+}
+
+.area-atuacao img{
+    width: 100px;
+    padding: 10px;
+}
+
+
+/*-- Entre em contato ---*/
+button{
+    margin: 100px 0;
+}
+
+.botao .btn{
+    border-radius: 50px;
+    border: 2px solid rgba(221, 208, 166, 0.822);
+    padding: 20px 50px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.botao .btn a{
+    color: rgb(124, 19, 19);
+}
+
+
+.botao .btn a:hover{
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+
+/*---Rodapé ---*/
+
+footer{
+    background: rgba(255, 255, 255, 0.9);
+    /* background: rgba(252, 239, 196, 0.7);*/
+    /*background: rgba(245,245,220, 0.9);*/
+    font-size: 1em;
+    font-weight: bold;
+    margin: 70px 0 0 0;
+    padding: 40px 0 10px 0;
+}
+
+section ul{
+    list-style: none;
+    
+}
+
+section ul li{
+    float: right;
+    padding: 0 20px;
+}
+
+
+.contato_footer span{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+
+.direito_reservado p{
+    padding:  40px 0 0 0;
+    font-size: 0.9em;
+    color: black;
+
+    
+
+}
+
+.redes a img{
+    width: 40px;
+
+    
+}
+
+.redes a img:hover{
+    width: 45px;
+    
+    
+}
+
+
+
+/*--- Responsividade ---*/
+
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .logo{
+        width: 280px;
+    }
+
+    nav.navbar-transparente{
+        font-size: 0.9em;
+        
+    }
+   
+    .sobre img{
+        border-radius: 15%;
+        border: 3px solid rgb(124, 19, 19);
+        width: 350px;        
+    }
+
+    .noticia img{
+        width: 80%;
+       
+        
+    }
+
+    .noticia1{
+        border-bottom: 1px solid rgba(221, 208, 166, 0.822);
+        padding: 20px 15px ;
+    }
+
+    .noticia p{
+        padding: 20px 20px 0 20px ;
+    }
+
+    .area-atuacao h5{
+        font-size: 1em;
+    }
+    
+    .area-atuacao img{
+        width: 1px;
+        padding: 10px;
+    }
+
+
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sobre img{
+        border-radius: 15%;
+        border: 3px solid rgb(124, 19, 19);
+        width: 350px;
+               
+    }
+
+    .noticia img{
+        width: 80%;
+    }
+
+    .noticia1{
+        border-bottom: 1px solid rgba(221, 208, 166, 0.822);
+        padding: 20px 15px ;
+    }
+
+    .noticia p{
+        padding: 20px 20px 0 20px ;
+    }
+
+    
+    .area-atuacao h5{
+        font-size: 0.9em;
+    }
+    
+    .area-atuacao img{
+        width: 60px;
+        padding: 10px;
+    }
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .logo{
+        width: 280px;
+    }
+
+    nav.navbar-transparente{
+        font-size: 0.9em;
+        
+    }
+    
+    
+    section ul li{
+        float: right;
+        padding: 0 10px;
+    }
+    
+    
+    
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+    
+
+ }
+
+/* X-Large devices (large desktops, less than 1400px)*/
+@media (min-width: 1200px) {
+   
+    
+ }
+
+/* XX-Large devices (larger desktops)*/
+/* No media query since the xxl breakpoint has no upper bound on its width*/
+
+
+
